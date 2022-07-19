@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+body {font-family: "Lato", sans-serif;}
+
+.sidebar {
+  height: 64%;
+  width: 200px;
+  position:absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#280000;
+  overflow-x: hidden;
+  border-radius:5px;
+  border-style:ridge;
+  border-color:#550000;
+  padding-top: 100px;
+  margin-top:360px;
+}
+
+.sidebar a {
+  padding: 16px 16px 26px 28px;
+  background-color:maroon;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  display: block;
+  border:1px solid #4d0000;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.28);
+}
+
+.bar1{
+	display:block;
+	
+}
+
+#bar{
+	border-radius:12px;
+	padding:14px;
+}
